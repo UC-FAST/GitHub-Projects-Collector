@@ -1,8 +1,8 @@
 """
-文件：PythonApplication2.py
+文件：GitHub-Projects-Hunter.py
 描述：github项目统计
 时间：2017.11.14 19:28
-GitHub：https://github.com/UC-FAST/GitHub-Projects-Collector/
+GitHub：https://github.com/UC-FAST/GitHub-Projects-GitHub-Projects-Hunter/
 """
 
 import requests
