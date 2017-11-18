@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 文件：GitHub-Projects-Hunter.py
 描述：github项目统计
@@ -7,6 +8,9 @@ GitHub：https://github.com/UC-FAST/GitHub-Projects-GitHub-Projects-Hunter/
 
 import requests
 import time
+#如果运行于Linux环境加上以下两行
+#import matplotlib
+#matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 def get(str):
@@ -100,7 +104,7 @@ while True:
     except Exception as e:
         if stop != 3000:
             stop+=60
-        print(e.message())
+        print(e.message())#输出错误信息，不必要
         print("遇到错误:" + str(stop) + "秒后重新连接")
         time.sleep(stop)
         #time.sleep(0)
