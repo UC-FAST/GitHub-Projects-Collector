@@ -68,13 +68,13 @@ class IncompleteError(BaseException):
         return "incomplete_results"
 
 
-stop = 60
+stop = 60       #遇到异常暂停
 py = []
 cpp = []
 c = []
 label = []
-times = 1
-sleepTime = 60
+times = 1       #收集次数统计
+sleepTime = 60  #收集信息间隔
 day = 0
 
 while True:
